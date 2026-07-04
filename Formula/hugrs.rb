@@ -4,21 +4,21 @@ class Hugrs < Formula
   license "MIT"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tq02ksu/hugrs/releases/download/v0.5.0/hugrs-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "185ece5c13fb673f935a1a28b624fc45ec8db046a752e62c42847ad2ebedbaba"
+      url "https://github.com/tq02ksu/hugrs/releases/download/v0.6.1/hugrs-v0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "7de30996370b3d01aa5840831ea202d41017e82c317a3e08817b7deaf246bd00"
     else
-      url "https://github.com/tq02ksu/hugrs/releases/download/v0.5.0/hugrs-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1b00306fa8020274413f7b6269151af8638fea5fd3db6ac0f08be17305fb8c2b"
+      url "https://github.com/tq02ksu/hugrs/releases/download/v0.6.1/hugrs-v0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "61a78c2e1cf0f790b3e41fa953c12e622ddc54b8e9a087c3660942d5450d7c0a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tq02ksu/hugrs/releases/download/v0.5.0/hugrs-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a065a9461210850b7979f55285ee973c3a1786bad3d7a3c0add120a14b8813e0"
+      url "https://github.com/tq02ksu/hugrs/releases/download/v0.6.1/hugrs-v0.6.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7e0f37f60eb3341cd05300c7b2a8da1b93a3dc091e897b1e43c93ab77fe3cc5c"
     else
-      url "https://github.com/tq02ksu/hugrs/releases/download/v0.5.0/hugrs-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a4b41b84f1ba5ab0a42e04220fec5a4a28dc517e9179b189b19f8aa596d1604b"
+      url "https://github.com/tq02ksu/hugrs/releases/download/v0.6.1/hugrs-v0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "862381be36d9bbab42d331789e0dd4c42546f164512495bc7819eae0a571833c"
     end
   end
 
